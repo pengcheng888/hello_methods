@@ -1,0 +1,29 @@
+# Xmake cache
+.xmake/
+build/
+./*/build/
+
+# MacOS Cache
+.DS_Store
+
+# Vscode
+.vscode/
+
+# Python
+__pycache__/
+
+# Log
+*.log
+
+# Cache
+cache/
+
+# JSON
+*.json
+
+#GGUF
+*.gguf
+
+
+#a.out
+*.out
