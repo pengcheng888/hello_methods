@@ -10,7 +10,7 @@ package("mylib")
     add_urls("https://github.com/pengcheng888/hello_methods.git")
     
     -- 添加版本 (使用Git标签)
-    add_versions("v1.0.0", "d7b6d3a9a028c4e3078dce5d3d3f1e3c4b5d6a7c") -- 替换为实际的commit hash
+    add_versions("v1.0.0", "161199a952f302353d676d7ff44f79df8f5ef9aa") -- 替换为实际的commit hash
     
     -- 添加配置选项
     add_configs("shared", {description = "Build shared library", default = false, type = "boolean"})
